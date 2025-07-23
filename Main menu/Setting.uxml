@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/silderdesign.uss?fileID=7433441132597879392&amp;guid=4fe5c73d28120bf48b30537a07543fa2&amp;type=3#silderdesign" />
+    <ui:Button name="back-button" text="Back" class="menu-button button" style="background-color: rgb(0, 0, 0); -unity-text-outline-color: rgba(255, 239, 239, 0); color: rgb(255, 249, 249); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; width: 100px;" />
+    <ui:Label text="Setting" name="Title" style="align-self: center; font-size: 70px; height: 202px; width: 344px; -unity-font-style: bold; -unity-text-align: upper-center;" />
+    <ui:VisualElement class="slider-container" style="width: 507px; align-items: stretch; align-self: center;">
+        <ui:Label text="Volume" class="slider-label" style="-unity-font-style: bold; -unity-text-align: upper-left; color: rgb(0, 0, 0); font-size: 25px;" />
+        <ui:Slider low-value="0" high-value="100" value="42" fill="true" show-input-field="true" enabled="true" inverted="false" name="volume-silder" class="volume-slider" style="margin-top: 2px; align-self: auto; align-content: auto; justify-content: center; -unity-text-align: upper-left; width: auto; height: auto; background-color: rgba(152, 104, 104, 0); background-image: url(&quot;project://database/Assets/SpawnCampGames/WalkieTalkie/Scenes/SampleScene/Lightmap-0_comp_light.exr?fileID=2800000&amp;guid=d8af053aa61545d4d933a86be0e86c8f&amp;type=3#Lightmap-0_comp_light&quot;); border-top-width: 20px; border-right-width: 20px; border-bottom-width: 20px; border-left-width: 20px; -unity-text-outline-color: rgba(255, 255, 255, 0);" />
+    </ui:VisualElement>
+    <ui:VisualElement class="slider-container" style="align-self: center;">
+        <ui:Label text="Sensitivity" class="slider-label" style="-unity-font-style: bold; color: rgb(2, 2, 2); font-size: 25px;" />
+        <ui:Slider low-value="0" high-value="100" value="50" fill="true" show-input-field="true" inverted="false" name="sensitivity-silder" class="volume-slider" style="width: 501px; height: auto; background-image: url(&quot;project://database/Assets/SpawnCampGames/WalkieTalkie/Scenes/SampleScene/Lightmap-2_comp_light.exr?fileID=2800000&amp;guid=0b0edd974c4393c4ca7268409acbfb45&amp;type=3#Lightmap-2_comp_light&quot;); border-top-width: 20px; border-right-width: 20px; border-bottom-width: 20px; border-left-width: 20px;" />
+    </ui:VisualElement>
+</ui:UXML>
